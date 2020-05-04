@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    background-color: #262626;
+    height: 100%;
+}
+.LogoHeader{
+  color: #F2F2F2;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 38px;
+  letter-spacing:5px;
+}
+.LogoHeader::first-line{
+  font-weight: bold;
+  font-style: uppercase;
+  font-size: 50px;
+  letter-spacing:12px;
+  font-family:'Bebas Neue', sans-serif;
+}
+
+.LogoHeader:hover{
+  opacity: 0.5;
+}
+header{
+  background-color: #0D0D0D;
+  width: 1280px;
+  height: 150px;
+}
+header ul{
+  padding: 0px;
+  margin: 0px;
+}
+header li{
+  float: left;
+  list-style-type: none;
+}
+header a{
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #F2F2F2;
+}
+.Menu{
+  display: inline-block;
+  font-size: 15px;
+  float: right;
+  margin-top: 80px;
+  margin-right: 38px;
+}
+.MyWork:hover{
+  opacity: 0.8;
+}
+.ig:hover{
+  opacity: 0.8;
+}
+.Contact:hover{
+  opacity: 0.8;
+}
