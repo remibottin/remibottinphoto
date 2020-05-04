@@ -12,7 +12,7 @@ body{
   margin-top: 40px;
   margin-left: 38px;
   letter-spacing:5px;
-
+  font-weight: 100;
 }
 .LogoHeader::first-line{
   font-weight: bold;
@@ -79,6 +79,7 @@ img{
 
 .contact h1{    /* Contact title*/
   margin: 0px 0px 0px 80px;
+
   color: #262626;
   font-size: 50px;
   font-family: 'Bebas Neue', sans-serif;
@@ -98,6 +99,7 @@ img{
 }
 .p1inf{   /* Email and Base in 500 */
   font-weight: 500;
+  
 }
 
 .info .desc{
@@ -130,6 +132,13 @@ img{
 #required{
   font-size: 60px;
 }
+
+
+
+
+
+
+
 
 /* Media Query*/
 @media screen and (max-width:1280px){
@@ -188,29 +197,36 @@ header ul{
 
 .LogoHeader{
   text-align: center;
+  display: block
   margin: 0px;
   padding: 0px;
+
 }
 .LogoHeader::first-line{
   font-size: 30px;
-  margin: 0px auto;
+  margin: 0px;
+
 }
-img{
-  width: 100%;
-}
+
 header{
     width: 100%;
-    height: 150px;
-
-  }
-
-header li{
-  display: block;   /* Header for 625 */
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
+    height: 160px;
 }
 
+header li{
+  display: inline-block;   /* Header for 625 */
+  padding: 0px;
+  margin: 0px;
+  text-align:center;
+  margin-top: 60px;
+}
+header a{
+  padding: 0px 20px;
+}
+.Menu{
+  margin: 0px;
+  padding: 0px;
+}
 .right{
   margin: 0px;
   text-align: center;

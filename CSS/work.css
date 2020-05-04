@@ -7,7 +7,7 @@ body{
 
 }
 .LogoHeader{
-  color: #F2F2F2;
+  color: #262626;
   display: inline-block;
   margin-top: 40px;
   margin-left: 38px;
@@ -23,7 +23,7 @@ body{
   opacity: 0.5;
 }
 header{
-  background-color: #0D0D0D;
+  background-color: #f6F6F5;
   width: 1280px;
   height: 150px;
 
@@ -39,7 +39,7 @@ header li{
 header a{
   padding: 20px 20px;
   text-decoration: none;
-  color: #A6A6A6;
+  color: #262626;
 }
 .Menu{
   display: inline-block;
@@ -49,13 +49,13 @@ header a{
   margin-right: 38px;
 }
 .MyWork:hover{
-  opacity: 0.8;
+  opacity: 0.3;
 }
 .ig:hover{
-  opacity: 0.8;
+  opacity: 0.3;
 }
 .Contact:hover{
-  opacity: 0.8;
+  opacity: 0.3;
 }
 
 

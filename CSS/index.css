@@ -3,16 +3,19 @@ body{
     padding: 0px;
     margin: 0px;
     font-size: 10px;
-    background-color: #262626;
+    font-weight: 100;
+    background-color: #f6F6F5;
     height: 100%;
 
 }
 .LogoHeader{
-  color: #F2F2F2;
+  color: #262626;
   display: inline-block;
   margin-top: 40px;
   margin-left: 38px;
   letter-spacing:5px;
+  
+
 }
 .LogoHeader::first-line{
   font-weight: bold;
@@ -26,7 +29,7 @@ body{
   opacity: 0.5;
 }
 header{
-  background-color: #0D0D0D;
+  background-color: #f6F6F5;
   width: 1280px;
   height: 150px;
 }
@@ -41,7 +44,7 @@ header li{
 header a{
   padding: 20px 20px;
   text-decoration: none;
-  color: #F2F2F2;
+  color: #262626;
 }
 .Menu{
   display: inline-block;
@@ -69,23 +72,23 @@ header a{
   line-height: 50px;
 }
 .Hi{
-  color: #F2F2F2;
+  color: #262626;
   font-size: 80px;
   letter-spacing:5px;
 }
 .Rémi{
-  color: #F2F2F2;
+  color: #262626;
   font-size: 80px;
   letter-spacing:5px;
 }
 .Photographer{
-  color: #F2F2F2;
+  color: #262626;
   font-size: 80px;
   letter-spacing:5px;
 }
 .what{
   font-size: 20px;
-  color: #A6A6A6;
+  color: #262626;
   line-height: 15px;
   letter-spacing:0px;
 }
