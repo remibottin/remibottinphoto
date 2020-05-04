@@ -1,17 +1,32 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
     font-size: 10px;
     background-color: #262626;
+
 }
 .LogoHeader{
-  margin: -30px;
+  color: #F2F2F2;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 38px;
+  letter-spacing: 5px;
+}
+.LogoHeader::first-line{
+  font-style: uppercase;
+  font-size: 50px;
+  letter-spacing: 12px;
+  font-family:'Bebas Neue', sans-serif;
+}
+.LogoHeader:hover{
+  opacity: 0.5;
 }
 header{
   background-color: #0D0D0D;
-  width: 100%;
+  width: 1280px;
   height: 150px;
+
 }
 header ul{
   padding: 0px;
@@ -28,45 +43,78 @@ header a{
 }
 .Menu{
   display: inline-block;
+  font-size: 15px;
   float: right;
-  margin: 75px 50px;
+  margin-top: 80px;
+  margin-right: 38px;
 }
 .MyWork:hover{
-  text-decoration: underline;
-  opacity: 0.5;
+  opacity: 0.8;
 }
-.AboutMe:hover{
-  text-decoration: underline;
-  opacity: 0.5;
+.ig:hover{
+  opacity: 0.8;
 }
 .Contact:hover{
-  text-decoration: underline;
-  opacity: 0.5;
+  opacity: 0.8;
 }
-.Portfolio{
-  width: 1280px;
 
-  margin: 70px auto;
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  justify-content: center;
+
+
+.Portfolio{
+  margin: 0px;
+  padding: 0px;
+  width: 1280px; /*width of the Portfolio */
+
+  position: relative;
+  border: 5px;
+  box-shadow: 0px 0px 50px solid black;
+  z-index: 1;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto; /* Four columns on the grid */
+  grid-gap: 0px;
+  grid-auto-flow: dense;
+
 }
 .Portfolio .box{
+  position: relative;
   display: inline-block;
-  width: 300px;
-  height: 400px;
-  background-color: black;
+  width: 320px; /* Square box */
+  height: 320px;
   position: relative;
-  margin: 10px auto;
+  text-align: center;
 }
-.Portfolio .box .imgbox{
-  position: relative;
-  
-}
-.Portfolio .box .imgbox img{
-  max-width: 100%;
-  overflow: hidden;
 
+.imgbox img:hover{
+  opacity: 0.2;
+
+}
+
+.Portfolio .box .imgbox img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgbox span{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 25px;
+  text-shadow: 2px 2px 5px solid black;
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+.Portfolio .box .imgbox span::first-line{
+  font-size: 40px;
+  line-height: 50px;
+  position: absolute;
 
 }
