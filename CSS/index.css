@@ -1,122 +1,184 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Input Mono', sans-serif;
     padding: 0px;
     margin: 0px;
     font-size: 10px;
     font-weight: 100;
     background-color: #f6F6F5;
-    height: 100%;
-
 }
-.LogoHeader{
-  color: #262626;
+
+.logo{
   display: inline-block;
-  margin-top: 40px;
-  margin-left: 38px;
-  letter-spacing:5px;
-  
+  transform: rotate(352.8deg);
 
-}
-.LogoHeader::first-line{
-  font-weight: bold;
+  font-size: 30px;
   font-style: uppercase;
-  font-size: 50px;
-  letter-spacing:12px;
-  font-family:'Bebas Neue', sans-serif;
+  color: #262626;
 }
 
-.LogoHeader:hover{
-  opacity: 0.5;
+.topbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top:0;
+  left:0;   /* top left rigt at 0 and so element a fixed position */
+  right:0;
+  z-index: 1;
+  position: fixed;
+  padding: 40px;
 }
 header{
-  background-color: #f6F6F5;
-  width: 1280px;
-  height: 150px;
+
+  width: 100%;
+  height: 120px;
 }
-header ul{
-  padding: 0px;
-  margin: 0px;
+.menu{
+  display: flex;
 }
-header li{
-  float: left;
+.menu li{
   list-style-type: none;
+  padding-right: 40px;
 }
-header a{
-  padding: 20px 20px;
+.menu a{
   text-decoration: none;
   color: #262626;
 }
-.Menu{
-  display: inline-block;
-  font-size: 15px;
-  float: right;
-  margin-top: 80px;
-  margin-right: 38px;
+.ig, .contact{
+  transition: opacity 0.5s;
 }
-.MyWork:hover{
-  opacity: 0.8;
+.Work:hover{
+  opacity: 0.3;
 }
 .ig:hover{
-  opacity: 0.8;
+  opacity: 0.3;
 }
 .Contact:hover{
-  opacity: 0.8;
+  opacity: 0.3;
 }
-
-
-.Me{
-  padding: 0px;
-  margin: 0px;
-  margin-left: 50px;
-  margin-top: 100px;
-  line-height: 50px;
-}
-.Hi{
+.copyright{
   color: #262626;
-  font-size: 80px;
-  letter-spacing:5px;
+  display: flex;
+  left: 20px;
+  bottom: 0px;
+  position: fixed;
 }
-.Rémi{
-  color: #262626;
-  font-size: 80px;
-  letter-spacing:5px;
-}
-.Photographer{
-  color: #262626;
-  font-size: 80px;
-  letter-spacing:5px;
-}
-.what{
-  font-size: 20px;
-  color: #262626;
-  line-height: 15px;
-  letter-spacing:0px;
-}
-/* .Button{
-  margin-left: 390px;
-  margin-top: 0px;
 
-  padding: 5px;
+/* img scrolling*/
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;        /* top image */
+  flex-direction: column;
+}
+.topimg{
+  width: 60%;
+  display: flex;
+}
 
-  border: 0.5px solid ;
-  background-color: #0D0D0D;
-  border-radius: 5px;
+.grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;    /* grid 3x image */
+  margin-top: 180px;
+}
+.grid:first-child{
+  margin-top: 180px;
+}
+.gridimg{
+  width: 20%;
+}
+.foot{
+  display: flex;
+  justify-content: center;    /* footer image */
+  align-items: center;
+  flex-direction: column;
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+.footimg{
+  width: 60%;
+}
 
-  display: inline-block;
-  height: 30px;
-  width: 190px;
+
+.head img{
+    animation: fadein 3s ;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+.head span{
+  color: #262626;
+  font-size:20px;
+  display: flex;
+  flex-direction:column;
 
   text-align: center;
-
+  position: absolute;
+  z-index: -1;
 }
-.Button:hover{
-  background-color: #0D0D0D;
-  opacity: 0.5;
 
-}
-.Here{
-  color: #F2F2F2;
+.button a{
+  color: #262626;
   text-decoration: none;
+
+  position: relative;
+  top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: opacity 0.5s;
+}
+.button a:hover{
+  opacity: 0.3;
+}
+.info span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 25px;
+  color: #262626;
+  position: relative;
+  top: 80px;
+}
+
+
+@media screen and (max-width:660px){
+.logo{
   font-size: 20px;
 }
-*/
+.topbar{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.copyright{
+  font-size: 5px;
+}
+.topimg{
+  width: 100%;
+}
+.head span{
+  font-size: 10px;
+}
+.info span{
+  font-size: 10px;
+}
+.grid{
+  display: flex;
+  flex-direction: column;
+}
+.gridimg{
+  width: 100%;
+}
+.footimg{
+  width: 100%;
+}
+}
