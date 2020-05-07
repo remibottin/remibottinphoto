@@ -12,58 +12,63 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><h1 class="LogoHeader">Rémi Bottin <br> Photographer</h1></a>
-        <div class="Menu">
-          <ul>
-            <li class="MyWork" ><a href="Work.html">Work </a></li>
-            <li class="ig"><a href="https://www.instagram.com/remibottinphoto/"> Instagram</a></li>
-            <li class="Contact"><a href="Contact.html"> Contact</a></li>
-          </ul>
-      </div>
+      <div class="topbar">
+      <!--  <a href="index.html"><h1 class="LogoHeader">Rémi Bottin <br> Photographer</h1></a> -->
+        <div class="logoheader">
+            <a href="index.html">
+              <span class="logo">R</span>
+              <span class="logo">E</span>
+              <span class="logo">M</span>
+              <span class="logo">I</span>
+              <span>&nbsp;</span>
+              <span class="logo">B</span>
+              <span class="logo">O</span>
+              <span class="logo">T</span>
+              <span class="logo">T</span>
+              <span class="logo">I</span>
+              <span class="logo">N</span>
+            </a>
+          </div>
+        <ul class="menu">
+          <li class="Work" ><a href="Work.html">Work </a></li>
+          <li class="ig"><a href="https://www.instagram.com/remibottinphoto/"> Instagram</a></li>
+          <li class="Contact"><a href="Contact.html"> Contact</a></li>
+        </ul>
+    </div>
     </header>
     <nav>
       <div class="container">
       <img src="ressources/contact.jpg" alt="Wait for me!">
-        <div class="right">
-          <div class="contact"><h1> Contact </h1>
-            </div>
-          <div class="info">
+        <div class="info">
+          <div class="left">
+            <p> Contact </p>
             <span class="p1">
             <span class="p1inf">E-mail</span>&nbsp;&nbsp; remibottin12@gmail.<br>
             <span class="p1inf">Base</span>&nbsp;&nbsp; Alsace, FRANCE.
               </span>
-            <span class="desc">
+            </div>
+            <div class="right">
               Hi there, <br>
-              My name is Rémi Bottin, i'm a french Photographer based in Alsace.<br>
-              I've niched my photography around my passion of bike and mountains.<br>
-              Hit me up in a e-mail
-              if you have any questions or business inquiries.
-            </span>
+              My name is Rémi Bottin, i'm a lifestyle and adventure sports photographer based in Alsace, France.<br>
+              I've always try to niched my photography, around my passion of bikes and mountains. <br>
+              Hit me up in a e-mail if you have any questions or business inquiries.
+            </div>
         </div>
       </div>
+      <!--
+        <form class="form" action="php/contact.php" method="post">
+          <input type="text" name="name" placeholder="Full name">
+          <input type="text" name="email" placeholder="Your E-Mail">
+          <input type="text" name="subject" placeholder="Subject">
 
-      <div class="form">
-        <div id="after_submit"></div>
-          <form id="contact_form" action="contact.php" method="POST" enctype="multipart/form-data">
-            <div class="row">
-              <label class="required" for="name">Name</label><br/>
-              <input id="name" class="input" name="name" type="text" value=""/><br/>
-              <span id="name_validation" class="error_message"></span>
-            </div>
-            <div class="row">
-              <label class="required" for="email">E-mail</label><br/>
-              <input id="email" class="input" name="email" type="text" value="" /><br/>
-              <span id="email_validation" class="error_message"></span>
-            </div>
-            <div class="row">
-              <label class="required" for="message">Message</label><br/>
-              <textarea id="message" class="input" name="message" ></textarea><br/>
-              <span id="message_validation" class="error_message"></span>
-            </div>
+          <textarea name="message" placeholder="Message"></textarea>
 
-              <input id="submit_button" type="submit" value="Send email"/>
-          </form>
-      </div>
-    </div>
-  </nav>
+          <button type="submit" name="submit">Send email</button>
+        </form> -->
+      </nav>
+    <footer>
+        <div class="copyright">
+          <p> Website build and design, by Rémi Bottin.</p>
+        </div>
+    </footer>
 </html>
