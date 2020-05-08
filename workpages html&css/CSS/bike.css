@@ -71,6 +71,7 @@ header{
 .img1{        /* firt image */
   width: 90%;
   height: auto;
+  object-fit: cover;
 }
 .img50{        /* images portrait mode */
   width: 50%;
