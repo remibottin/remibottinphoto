@@ -70,16 +70,16 @@ header{
   position: fixed;
 }
 
+
 /* img scrolling*/
-.head{
+.head p{
   display: flex;
   justify-content: center;
-  align-items: center;        /* top image */
-  flex-direction: column;
-}
-.topimg{
-  width: 60%;
-  display: flex;
+  margin: 200px auto;
+
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
 }
 
 .grid{
@@ -107,26 +107,6 @@ header{
 }
 
 
-.head img{
-    animation: fadein 3s ;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
-@keyframes fadein {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-}
-.head span{
-  color: #262626;
-  font-size:20px;
-  display: flex;
-  flex-direction:column;
-
-  text-align: center;
-  position: absolute;
-  z-index: -1;
-}
-
 .button a{
   color: #262626;
   text-decoration: none;
@@ -152,7 +132,7 @@ header{
   line-height: 25px;
   color: #262626;
   position: relative;
-  top: 80px;
+  top: 100px;
 }
 
 
