@@ -72,6 +72,7 @@ header{
   width: 90%;
   height: auto;
   object-fit: cover;
+
 }
 .img50{        /* images portrait mode */
   width: 50%;
@@ -139,11 +140,8 @@ header{
     margin-bottom: 20px;
   }
   .img1{        /* firt image */
-    width: 100%;
-    display: flex;
-    justify-content: center;    
-    align-items: center;
-    flex-direction: column;
+    width: 300px;
+    margin: 0px;
   }
   .img50{        /* images portrait mode */
     width: 50%;
