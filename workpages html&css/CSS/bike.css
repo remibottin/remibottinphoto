@@ -140,7 +140,10 @@ header{
   }
   .img1{        /* firt image */
     width: 100%;
-
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
   }
   .img50{        /* images portrait mode */
     width: 50%;
