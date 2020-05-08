@@ -141,6 +141,7 @@ header{
   }
   .img1{        /* firt image */
     width: 300px;
+    height: 200px;
     margin: 0px;
   }
   .img50{        /* images portrait mode */

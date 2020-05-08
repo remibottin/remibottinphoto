@@ -70,7 +70,8 @@ header{
 }
 .img1{        /* firt image */
   width: 90%;
-
+  height: auto;
+  object-fit: cover;
 }
 .img50{        /* images portrait mode */
   width: 50%;
@@ -131,4 +132,10 @@ header{
   .container{
     margin-bottom: 20px;
   }
+  .img1{
+    width: 300px;
+    height: auto;
+    margin: 0px;
+  }
+
 }
