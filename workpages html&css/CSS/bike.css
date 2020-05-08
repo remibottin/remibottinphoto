@@ -70,14 +70,16 @@ header{
 }
 .img1{        /* firt image */
   width: 90%;
-
+  height: auto;
 }
 .img50{        /* images portrait mode */
   width: 50%;
+  height: auto;
   margin-top: 10px
 }
 .img100{       /* images landscape mode */
   width: 90%;
+  height: auto;
   margin-top: 10px
 }
 .container{
