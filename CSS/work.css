@@ -140,7 +140,7 @@ header{
   }
 @media screen and (max-width:700px) {    /* Iphone resolution */
   .logo{
-    font-size: 20px;
+    font-size: 25px;
   }
   .logoheader{
     margin-bottom: 15px;
