@@ -135,7 +135,11 @@ header{
   top: 100px;
 }
 
-
+@media screen and (max-width:1024px){
+  .head p{
+    margin-bottom:800px;
+  }
+}
 @media screen and (max-width:660px){
 .logo{
   font-size: 20px;
@@ -151,8 +155,9 @@ header{
 .topimg{
   width: 90%;
 }
-.head span{
+.head p{
   font-size: 10px;
+  margin: 150px 0px 300px 0px;
 }
 .info span{
   font-size: 10px;
