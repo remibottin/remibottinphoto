@@ -145,6 +145,12 @@ header{
   .logo{
     font-size: 20px;
   }
+  .logoheader{
+    margin-bottom: 15px;
+  }
+  .menu{
+    margin-bottom: 15px;
+  }
   .topbar{
     display: flex;
     flex-direction: column;

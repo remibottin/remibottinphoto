@@ -142,7 +142,13 @@ header{
 }
 @media screen and (max-width:660px){
 .logo{
-  font-size: 20px;
+  font-size: 25px;
+}
+.logoheader{
+  margin-bottom: 15px;
+}
+.menu{
+  margin-bottom: 15px;
 }
 .topbar{
   display: flex;
@@ -157,7 +163,7 @@ header{
 }
 .head p{
   font-size: 15px;
-  margin: 150px 0px 300px 0px;
+  margin: 150px 0px 150px 0px;
 }
 .info span{
   font-size: 10px;
